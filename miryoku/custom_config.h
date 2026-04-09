@@ -5,10 +5,12 @@
 
 #undef MIRYOKU_LAYER_BASE
 #define MIRYOKU_LAYER_BASE \
-&kp Q,          &kp W,          &kp E,          &kp R,          &kp B,             &kp J,          &kp Y,          &kp O,          &kp U,          &kp SQT,         \
-&hml LGUI S,    &hml LALT L,    &hml LSHFT D,   &hml LCTRL C,   &kp V,             &kp Z,          &hmr RCTRL N,   &hmr RSHFT R,   &hmr RALT T,    &hmr RGUI P,     \
-&kp F,          &kp X,          &kp M,          &kp G,          &kp W,             &kp K,          &kp H,          &kp COMMA,      &kp DOT,        &kp SLASH,       \
+&kp B,          &kp L,          &kp D,          &kp C,          &kp V,             &kp J,          &kp Y,          &kp O,          &kp U,          &kp COMMA,       \
+&hml LGUI N,    &hml LALT R,    &hml LSHFT T,   &hml LCTRL S,   &kp G,             &kp P,          &hmr RCTRL H,   &hmr RSHFT A,   &hmr RALT E,    &hmr RGUI I,     \
+&kp X,          &kp Q,          &kp M,          &kp W,          &kp Z,             &kp K,          &kp F,          &kp SQT,        &kp SEMI,       &kp DOT,         \
 U_NP, U_NP, U_LT(U_MEDIA, ESC), U_LT(U_NAV, SPACE), U_LT(U_MOUSE, TAB),            U_LT(U_SYM, RET), U_LT(U_NUM, BSPC), U_LT(U_FUN, DEL), U_NP, U_NP
+
+#endif
 
 // Physical Mapping logic remains the same to keep the Corne shape
 #define XXX &none
