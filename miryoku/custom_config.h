@@ -10,7 +10,6 @@
 &kp X,          &kp Q,          &kp M,          &kp W,          &kp Z,             &kp K,          &kp F,          &kp SQT,        &kp SEMI,       &kp DOT,         \
 U_NP, U_NP, U_LT(U_MEDIA, ESC), U_LT(U_NAV, SPACE), U_LT(U_MOUSE, TAB),            U_LT(U_SYM, RET), U_LT(U_NUM, BSPC), U_LT(U_FUN, DEL), U_NP, U_NP
 
-#endif
 
 // Physical Mapping logic remains the same to keep the Corne shape
 #define XXX &none
