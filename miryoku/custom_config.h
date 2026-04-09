@@ -10,8 +10,7 @@
 &kp X,          &kp Q,          &kp M,          &kp W,          &kp Z,             &kp K,          &kp F,          &kp SQT,        &kp SEMI,       &kp DOT,         \
 U_NP, U_NP, U_LT(U_MEDIA, ESC), U_LT(U_NAV, SPACE), U_LT(U_MOUSE, TAB),            U_LT(U_SYM, RET), U_LT(U_NUM, BSPC), U_LT(U_FUN, DEL), U_NP, U_NP
 
-
-// Physical Mapping logic remains the same to keep the Corne shape
+// Physical Mapping: Adds &none (XXX) to the outer columns to fit 3x6 Corne
 #define XXX &none
 #undef MIRYOKU_MAPPING
 #define MIRYOKU_MAPPING( \
