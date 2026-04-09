@@ -1,8 +1,10 @@
 // Gallium v2 Matrix for Miryoku Corne
 // GASC Home Row Mods (Gui, Alt, Shift, Ctrl)
+/* miryoku/custom_config.h */
 
 #if defined (MIRYOKU_KEYBOARD_CORNE)
 
+#undef MIRYOKU_LAYER_BASE
 #define MIRYOKU_LAYER_BASE \
 &kp Q,          &kp W,          &kp E,          &kp R,          &kp B,             &kp J,          &kp Y,          &kp O,          &kp U,          &kp SQT,         \
 &U_MT(LGUI, S), &U_MT(LALT, L), &U_MT(LSHFT, D), &U_MT(LCTRL, C), &kp V,             &kp Z,          &U_MT(RCTRL, N), &U_MT(RSHFT, R), &U_MT(RALT, T), &U_MT(RGUI, P), \
