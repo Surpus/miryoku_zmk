@@ -1,0 +1,3 @@
+// Dactyl Manuform – Miryoku keymap
+#include "../miryoku/custom_config.h"
+#include "../miryoku/miryoku.dtsi"
